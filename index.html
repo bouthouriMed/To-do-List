@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My To Do List</title>
+    <!-- Link your CSS file here -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload=display_ct();>
+ 
+    <span id='ct' > </span>
+    
+   <div class="myContainer">
+      
+        <div id="myDIV"> 
+          <h2 class="title" style="margin: 5px;">My To Do List</h2>
+          <input type="text" id="myInput" placeholder="Add To Do..." title="Click Add or Press Enter" style="white-space: pre-wrap;"/>
+          <span class="addBtn">Add</span>
+          <div><span class="instruction" style="font-size: small"> Click Add or Press Enter ⏎ </span></div>
+
+        </div>
+        
+
+        <ul id="myUL">
+          <!-- we are going to add the li here -->
+        </ul>
+        <!-- Link your JS file here -->
+        <span class="clearBtn">Clear all</span>
+        
+      </div>
+
+  
+
+    <script src="main.js"></script>
+  </body>
+</html>
